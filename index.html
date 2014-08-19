@@ -4,12 +4,43 @@
 	<meta charset="UTF-8">
 	<title>Dibujando con Freddy Vega</title>
 	<script src="canvas.js"></script>
+<style>
+	body{
+		text-align: center;
+		background-color: #505050;
+		font-family: monospace;
+		color: #EEE;
+		padding: 5em;
+	}
+	canvas{
+		border:2px dotted rgba(211, 253, 255, 0.82);
+	}
+	.button{
+		background-color: rgba(211, 253, 255, 0.82);
+		width: 30em;
+		height: 6em;
+		border-radius: 0 0 1.5em 1.5em ;
+		border-top: 10px solid black;
+		margin: 0 34%;	
+			
+	}
+	.button:hover{
+		background-color: rgba(211, 253, 255, 0.5);
+	}
+	a{
+		text-decoration: none;
+	}
+	h3{
+		margin-top: 6% ;
+	}
+</style>
 </head>
 <body>
 	<canvas width="300" height="300" id="dibujito">
 		
 	</canvas>
 	<h2> Dibujando con Js </h2>
+	<a href="https://github.com/JossJossJoss/DibujoConCanvas"><div class="button"><h3>View Proyect on Github</h3></div></a>
 	<script>
 	inicio();
 	</script>

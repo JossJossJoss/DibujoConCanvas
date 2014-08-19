@@ -7,9 +7,9 @@ function inicio()
 	dibujarGrilla(lienzo);
 
 	lienzo.beginPath();
-	lienzo.strokeStyle = "#17DBDB";
+	lienzo.strokeStyle = "rgba(211, 253, 255, 0.82)";
 	lienzo.arc(150,150,105, (Math.PI * 2), false);
-	lienzo.fillStyle="#17DBDB";
+	lienzo.fillStyle="rgba(211, 253, 255, 0.82)";
 	lienzo.fill()
 	lienzo.closePath();
 	lienzo.stroke();
